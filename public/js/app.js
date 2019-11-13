@@ -41,7 +41,7 @@ weatherForm.addEventListener('submit', (e) => {
 
             noForecast.textContent = ''
 
-            forecastMsg.textContent = 'Location: ' + data.location + ' Forecast: ' + data.forecast
+            forecastMsg.textContent = 'Location: ' + data.location + ' Forecast: ' + data.forecast + ', current temperature is ' + data.temperature + ' °C'
 
           }
         })
